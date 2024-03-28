@@ -13,8 +13,11 @@
       border: 1px solid #101011;
       border-radius: 5px;
       font-size: large;
-      margin-top: 3px;
+      margin-top: 10px;
+      padding-top: 5px;
     }
+  
+
   
     .icon {
       float: left;
@@ -23,9 +26,17 @@
 
       /* margin-right: 10px; */
     }
-    .name {
-      font-weight: bold;
+
+    .image--cover {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: center right;
     }
+    /* .name {
+      font-weight: bold;
+    } */
   
     /* For Middle Box Company Information */
     .custom-box-1 {
@@ -53,7 +64,8 @@
         hsl(220, 60%, 72%);
   
     }
-      
+
+    
   
   
     /* QR code */
